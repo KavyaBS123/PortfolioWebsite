@@ -14,7 +14,7 @@ export function About() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/src/assets/ME.jpeg"
+                src="/me.jpeg"
                 alt="Profile"
                 className="w-full h-[400px] object-cover rounded-2xl shadow-xl"
               />
@@ -82,7 +82,7 @@ I actively promote open-source development and am continually fascinated by how 
             </div>
 
             <a
-              href="/src/assets/KAVYA B S1Resume (3).pdf"
+              href="/kavyaresume.pdf"
               download
               className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
             >
