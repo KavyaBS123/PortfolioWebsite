@@ -5,34 +5,42 @@ interface Project {
   description: string;
   image: string;
   technologies: string[];
-  githubUrl: string;
-  liveUrl?: string;
+  // githubUrl: string;
+  // liveUrl?: string;
 }
 
 const projects: Project[] = [
   {
-    title: "AI Powered 3D Website",
-    description: "An innovative 3D website with AI integration, featuring dynamic content generation and interactive 3D models.",
-    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop",
-    technologies: ["React", "Three.js", "TailwindCSS", "OpenAI"],
-    githubUrl: "https://github.com/yourusername/project1",
-    liveUrl: "https://project1.demo.com"
+    title: "University Official Alumni Portal",
+    description: "This platform facilitates seamless interaction between alumni and the institution, offering features such as user authentication, event management, and a searchable alumni directory.",
+    image: "/src/assets/alumni.png",
+    technologies: ["React.js", "Typescript", "TailwindCSS", "OpenAI", "Vite", "NodeJS.js","MYSQL"],
+    // githubUrl: "https://github.com/yourusername/project1",
+    // liveUrl: "https://project1.demo.com"
   },
   {
-    title: "Modern Banking App",
-    description: "A full-stack banking application with modern UI/UX, secure authentication, and real-time transactions.",
+    title: "Modern Finance Tracker App for Teens",
+    description: "A user-friendly Web App designed to help teenagers manage their finances effectively. It offers features like expense tracking, savings goals, budgeting tools, and financial literacy tips, all presented in an engaging and gamified interface. Built with a modern tech stack, it aims to instill good money habits from a young age.",
     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-    githubUrl: "https://github.com/yourusername/project2",
-    liveUrl: "https://project2.demo.com"
+    technologies: ["Next.js", "TypeScript", "Prisma", "Stripe", "Figma","PostManAPI"],
+    // githubUrl: "https://github.com/yourusername/project2",
+    // liveUrl: "https://project2.demo.com"
   },
   {
-    title: "E-Commerce Platform",
-    description: "A scalable e-commerce platform with advanced features like real-time inventory management and payment processing.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1632&auto=format&fit=crop",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    githubUrl: "https://github.com/yourusername/project3"
-  }
+    title: "PriceWatcher",
+    description: " PriceWatcher, an e-commerce product scraping platform using Next.js and Bright Data's WebUnlocker handling over 1,000+ product scrapes daily with high reliability. Designed to empower users with real-time product tracking, it notifies users of price drops and out-of-stock alerts through automated email notifications to over 200+ users. Implemented cron jobs to automate periodic scraping, maintaining 99.9% uptime for accurate and up-to-date product information..",
+    image: "/src/assets/pricewatcher.png",
+    technologies: ["React.js", "TypeScript","Node.js", "MongoDB", "TailwindCSS","CRON","NodeMailer", "HeadlessUI","Cheerio"],
+    // githubUrl: "https://github.com/yourusername/project3"
+  },
+  {
+    title: "DineSphere",
+    description: " Engineered and integrated Stripe for frictionless payment processing, resulting in a streamlined transaction experience that improved customer satisfaction scores by 30% while ensuring secure real-time financial transactions. Enhanced functionality by incorporating powerful search, email workflows with Mailtrap. Delivered a 20% faster page load time with optimized SEO and state management using Zustand, ensuring a superior user experience.",
+    image: "/src/assets/dinesphere.png",
+    technologies: ["React.js", "Express.js", "MongoDB", "Zustand","JWT","SEO Optimization"],
+    // githubUrl: "https://github.com/yourusername/project3"
+  },
+  
 ];
 
 export function Projects() {

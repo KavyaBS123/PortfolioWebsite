@@ -14,7 +14,7 @@ export function About() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4"
+                src="/src/assets/ME.jpeg"
                 alt="Profile"
                 className="w-full h-[400px] object-cover rounded-2xl shadow-xl"
               />
@@ -26,19 +26,19 @@ export function About() {
             {/* Social Links */}
             <div className="absolute bottom-6 left-6 flex space-x-4">
               <a
-                href="mailto:abhihonnapure@gmail.com"
+                href="mailto:kavyabsalawadagi@gmail.com"
                 className="p-3 bg-white dark:bg-gray-900 rounded-full shadow-lg hover:transform hover:scale-110 transition-all"
               >
                 <Mail className="w-5 h-5 text-blue-500" />
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/KavyaBS123"
                 className="p-3 bg-white dark:bg-gray-900 rounded-full shadow-lg hover:transform hover:scale-110 transition-all"
               >
                 <Github className="w-5 h-5 text-blue-500" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/kavya-b-s"
                 className="p-3 bg-white dark:bg-gray-900 rounded-full shadow-lg hover:transform hover:scale-110 transition-all"
               >
                 <Linkedin className="w-5 h-5 text-blue-500" />
@@ -49,7 +49,8 @@ export function About() {
           {/* Content Section */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-blue-500 bg-opacity-10 rounded-lg">
-              <span className="text-blue-500 font-semibold">Full Stack Developer</span>
+              <span className="text-blue-500 font-semibold"> Aspiring Software Developer</span> 
+            
             </div>
             
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -58,23 +59,18 @@ export function About() {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
               <p>
-                Hi there! I'm a passionate Full Stack Developer with a strong foundation in web technologies
-                and a keen eye for creating user-friendly applications. I specialize in building scalable
-                web applications using modern technologies like React, Node.js, and TypeScript.
+                Hi there! Hailing from the vibrant city of Bangalore, I have always been inspired by the bustling energy of India’s Silicon Valley 🌆 and the aroma of freshly brewed filter coffee ☕. This dynamic metropolis has instilled in me a deep appreciation for innovation & Community Collaboration.
               </p>
               <p>
-                With a problem-solving mindset and attention to detail, I strive to write clean,
-                maintainable code that delivers exceptional user experiences. I'm constantly learning
-                and staying up-to-date with the latest web development trends and best practices.
+              With a focus on real-world applications, I aspire to gain professional experiences across various industries and domains. I am passionate about making a meaningful impact by leveraging my expertise and contributing to transformative projects.
+
+I actively promote open-source development and am continually fascinated by how FOSS initiatives have enabled me to expand my network, acquire cutting-edge skills, and stay aligned with the ever-evolving tech landscape.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 py-6">
-              <div className="text-center">
-                <h4 className="text-2xl font-bold text-blue-500">2+</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Years of Experience</p>
-              </div>
+              
               <div className="text-center">
                 <h4 className="text-2xl font-bold text-blue-500">20+</h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</p>
@@ -86,7 +82,7 @@ export function About() {
             </div>
 
             <a
-              href="/path-to-your-cv.pdf"
+              href="/src/assets/KAVYA B S1Resume (3).pdf"
               download
               className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
             >

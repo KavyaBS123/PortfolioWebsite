@@ -10,19 +10,19 @@ export function Contact() {
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-12 text-lg">
           I'm currently looking for new opportunities. Whether you have a question
-          or just want to say hi, feel free to reach out!
+          or just want to say Hi, feel free to reach out!
         </p>
         
         <div className="flex justify-center space-x-8">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:kavyabsalawadagi@gmail.com"
             className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
           >
             <Mail className="w-6 h-6" />
             <span>Email</span>
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/KavyaBS123"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
@@ -31,7 +31,7 @@ export function Contact() {
             <span>GitHub</span>
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/kavya-b-s/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"

@@ -1,17 +1,20 @@
 import React from 'react';
 
 const skills = {
-  "Frontend": [
-    "HTML5", "CSS3", "JavaScript", "TypeScript",
-    "React.js", "Next.js", "TailwindCSS"
+ 
+  "Programming Language": [
+    "Java", "C", "Python",
+    "C++", "JavaScript", "TypeScript",
   ],
-  "Backend": [
-    "Node.js", "Express.js", "Python",
-    "Django", "PostgreSQL", "MongoDB"
+  "Technologies/Frameworks": [
+    "React.js", "Node.js", "Express.js",
+    "MySQL ", "PostgreSQL", "MongoDB", "Next.js", "TailwindCSS", "SASS Developer tools"
   ],
-  "Tools & Others": [
-    "Git", "Docker", "AWS", "Firebase",
-    "REST APIs", "GraphQL"
+  "Developer tools": [
+    "Git", "GitHub", "CloudFlare", "Linux"
+  ],
+  "Soft Skills": [
+    "Leadership ", "Public Speaking","Problem Solving ", "Interpersonal skills", "TeamWork", "Communication", "Content Writer"
   ]
 };
 

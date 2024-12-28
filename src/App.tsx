@@ -7,7 +7,7 @@ import { Projects } from './components/Projects';
 import { Qualification } from './components/Qualification';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
-import { ContactForm } from './components/ContactForm';
+
 import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <section id="projects"><Projects /></section>
           <section id="qualification"><Qualification /></section>
           <section id="skills"><Skills /></section>
-          <section id="contact-form"><ContactForm /></section>
+      
           <section id="contact"><Contact /></section>
         </main>
         <ScrollToTop />

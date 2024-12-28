@@ -7,19 +7,43 @@ export function Qualification() {
   const education = [
     {
       title: "Bachelor's in Computer Science",
-      institution: "Your University",
-      year: "2018 - 2022",
-      description: "Focused on software development and web technologies"
+      institution: "The Oxford College of Engineering",
+      year: "2022 - 2026",
+     
+    },
+    {
+      title: "11th-12th",
+      institution: "Narayana Institutes",
+      year: "2020 - 2022",
+     
+    },
+    {
+      title: "UKG-10th",
+      institution: "Kroot Memorial School",
+      year: "2008 - 2020",
+     
     },
     // Add more education items as needed
   ];
 
   const experience = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Company",
-      year: "2022 - Present",
-      description: "Leading development of web applications using React and Node.js"
+      title: "Full Stack Developer",
+      company: "build space",
+      year: "Jun 2024 - Oct 2024",
+      description: "Developed a comprehensive MERN-based Finance Dashboard App integrating machine learning for predictive analytics. Built with Vite, Redux Toolkit, and Material UI, the app provides an intuitive, responsive UI, while Recharts visualizes financial data. On the backend, Node.js, Express, and MongoDB handle robust data processing and storage, offering users real-time insights and forecasts to inform financial decision-making."
+    },
+    {
+      title: "Open Source Developer",
+      company: "Hacktoberfest",
+      year: "Oct 2024 - Oct 2024",
+      description: "Enthusiastic open-source contributor, actively participated in Hacktoberfest, one of the most prestigious open-source festivals. Made valuable contributions to diverse projects involving both frontend and backend development, enhancing features, resolving issues, and collaborating with global developers to improve project functionality and user experience. Passionate about contributing to impactful, community-driven projects and continually expanding my skill set in full-stack development.."
+    },
+    {
+      title: "Open Source Developer",
+      company: "Vinayasa Summer of Code",
+      year: "Jun 2024 - Oct 2024",
+      description: "At Vinyasa Summer of Code, I joined fellow students in computer science and design to explore our passion for software development and design in a supportive and immersive environment. Through hands-on projects, mentorship, and workshops, I aim to sharpen my technical skills and gain invaluable real-world experience."
     },
     // Add more experience items as needed
   ];
@@ -28,7 +52,7 @@ export function Qualification() {
     <div className="bg-gray-50 dark:bg-gray-900 py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
-          Qualification
+       My  Qualification  & Experience
         </h2>
         
         <div className="flex justify-center mb-8">
