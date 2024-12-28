@@ -13,7 +13,7 @@ const projects: Project[] = [
   {
     title: "University Official Alumni Portal",
     description: "This platform facilitates seamless interaction between alumni and the institution, offering features such as user authentication, event management, and a searchable alumni directory.",
-    image: "/src/assets/alumni.png",
+    image: "/alumni.png",
     technologies: ["React.js", "Typescript", "TailwindCSS", "OpenAI", "Vite", "NodeJS.js","MYSQL"],
     // githubUrl: "https://github.com/yourusername/project1",
     // liveUrl: "https://project1.demo.com"
@@ -29,14 +29,14 @@ const projects: Project[] = [
   {
     title: "PriceWatcher",
     description: " PriceWatcher, an e-commerce product scraping platform using Next.js and Bright Data's WebUnlocker handling over 1,000+ product scrapes daily with high reliability. Designed to empower users with real-time product tracking, it notifies users of price drops and out-of-stock alerts through automated email notifications to over 200+ users. Implemented cron jobs to automate periodic scraping, maintaining 99.9% uptime for accurate and up-to-date product information..",
-    image: "/src/assets/pricewatcher.png",
+    image: "/pricewatcher.png",
     technologies: ["React.js", "TypeScript","Node.js", "MongoDB", "TailwindCSS","CRON","NodeMailer", "HeadlessUI","Cheerio"],
     // githubUrl: "https://github.com/yourusername/project3"
   },
   {
     title: "DineSphere",
     description: " Engineered and integrated Stripe for frictionless payment processing, resulting in a streamlined transaction experience that improved customer satisfaction scores by 30% while ensuring secure real-time financial transactions. Enhanced functionality by incorporating powerful search, email workflows with Mailtrap. Delivered a 20% faster page load time with optimized SEO and state management using Zustand, ensuring a superior user experience.",
-    image: "/src/assets/dinesphere.png",
+    image: "/dinesphere.png",
     technologies: ["React.js", "Express.js", "MongoDB", "Zustand","JWT","SEO Optimization"],
     // githubUrl: "https://github.com/yourusername/project3"
   },
